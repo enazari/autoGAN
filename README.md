@@ -16,7 +16,7 @@ This repository is organized as follows:
 
 * **main.py** - includes the classifier model and root dataset, as well as all parameters for an instance of AutoGAN.
 * **utils.py** - includes all AutoGAN classes, with each oracle having its own class. It also includes an implementation of CGAN and utility classes for generating datasets from the root dataset.
-
+* **Datasets folder** - In this directory, the root datasets of all tabular datasets, alongside Kuzushiji-MNIST are brought inside Root Datasets folder. The rest of imagery datasets can be imported from tensorflow.keras.datasets library. Also, all derived datasets with different majority class count and imbalance ratios are brought in Derived Datasets folder.
 
 ### Requirements
 
@@ -30,7 +30,7 @@ matplotlib 3.2.2
 
 
 
-To replicate the experiments, ensure that you have a working installation of the libraries listed above. Then, set the input dataset in the main.py file and configure the classifier model according to the dataset (the specifications of the classifier used for each root dataset is mentioned in the paper). For example, if the root dataset is set to fashion MNIST, and you want to use classes 7 and 9 as the majority and minority classes, and you want to use the CDS oracle for AutoGAN, you can execute the following command:
+To replicate the experiments, ensure that you have a working installation of the libraries listed above. Then, set the input dataset in the main.py file and configure the classifier model according to the dataset (the specifications of the classifier used for each root dataset is mentioned in the paper). For example, if the root dataset is set to fashion MNIST, and you want to use classes 7 and 9 as the majority and minority classes, and you want to use the CDS oracle for AutoGAN, you need to first import fashion MNIST dataset in main.py, then you can execute the following command:
 
 python main.py --dataset_name='fmnist79' --oracle_name='CDS' --majority_class=7 --minority_class=9
 

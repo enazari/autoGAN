@@ -1,7 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ca11609-91a6-4882-a2b9-cab51e1b4177" name="Changes" comment="" />
+    <list default="true" id="9ca11609-91a6-4882-a2b9-cab51e1b4177" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Imagery Datasets/kmnist-train-imgs.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Imagery Datasets/kmnist-train-labels.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/cic_syscalls_adware_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/cic_syscalls_adware_labels.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/cic_syscallsbinders_adware_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/cic_syscallsbinders_adware_labels.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware_labels.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/cira_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/cira_labels.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/iscx_defacement_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/iscx_defacement_labels.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/iscx_spam_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/iscx_spam_labels.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/tor_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets/tor_labels.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/cifar17/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/cifar17/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist17/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist17/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist24/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist24/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/fmnist79/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/fmnist79/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist12/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist12/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist16/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist16/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/kmnist35/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/kmnist35/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist01/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist01/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist23/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist23/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Imagery Datasets/mnist38/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Imagery Datasets/mnist38/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Readme.me" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscalls_adware/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscalls_adware/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_adware/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_adware/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cic_syscallsbinders_smsmalware/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/cira/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/cira/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_defacement/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_defacement/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/iscx_spam/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/iscx_spam/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/1000_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/1000_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/1000_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/1000_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/1000_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/1000_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/1000_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/1000_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/100_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/100_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/100_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/100_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/100_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/100_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/100_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/100_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/200_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/200_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/200_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/200_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/200_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/200_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/200_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/200_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/500_0.1.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/500_0.1.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/500_0.2.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/500_0.2.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/500_0.3.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/500_0.3.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Tabular Datasets/tor/500_0.4.npz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Derived Datasets/Tabular Datasets/tor/500_0.4.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +317,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/john/Documents/uOttawa/Professor/Other/autoGAN",
+    "last_opened_file_path": "/Users/john/Documents/uOttawa/Professor/Other/autoGAN/Datasets/Derived Datasets",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Datasets/Derived Datasets" />
+      <recent name="$PROJECT_DIR$/Datasets/Root Datasets/Imagery Datasets" />
+      <recent name="$PROJECT_DIR$/Datasets/Root Datasets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Datasets/Root Datasets/Tabular Datasets" />
+      <recent name="$PROJECT_DIR$/Datasets/Derived Datasets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,10 +341,22 @@
       <option name="presentableId" value="Default" />
       <updated>1669566748072</updated>
       <workItem from="1669566750023" duration="7295000" />
+      <workItem from="1675890491962" duration="939000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

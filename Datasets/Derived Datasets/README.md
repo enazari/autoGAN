@@ -1,0 +1,1 @@
+In this directory, all the derived datasets for the experimentations are brought. The name of each datasets begins with the number of the majority class count then an underscore, then the imbalance ratio. For example, 100_0.1.npz means a dataset of 100 samples of the majority class and 10 samples of the minority class.
