@@ -34,7 +34,7 @@ To replicate the experiments, ensure that you have a working installation of the
 
 python main.py --dataset_name='fmnist79' --oracle_name='CDS' --majority_class=7 --minority_class=9
 
-
+*Once the root dataset is imported in main.py, the program will generate the derived datasets for the experiments on the fly.
 *****
 
 ### References
