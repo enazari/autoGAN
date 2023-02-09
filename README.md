@@ -7,7 +7,7 @@ This repository has all the code used in the experiments carried out in the pape
 
 To use GANs, researchers and developers need to answer the question: “Is the GAN sufficiently trained?". However, understanding when a GAN is well trained for a given problem is a challenging and laborious task that usually requires monitoring the training process and human intervention for assessing the quality of the GAN generated outcomes.
 
-**AutoGAN is a human-out-of-the-loop algorithm**, where the usage of quantitative measures is fully automated. AutoGAN does not require any human intervention and is applicable to different data modalities (tabular and images). Our extensive experiments show a clear advantage of using AutoGAN, even when compared to GANs trained under a thorough human visual inspection of the generated images.
+**AutoGAN is a human-out-of-the-loop algorithm**, where the usage of quantitative measures is fully automated. AutoGAN requires minimal human intervention at the design phase and is applicable to different data modalities (tabular and images). Our extensive experiments show the clear advantage of using AutoGAN, even when compared to GANs trained under a thorough human visual inspection of the generated images.
 
 
 ### Repository Organization
@@ -16,7 +16,7 @@ This repository is organized as follows:
 
 * **main.py** - includes the classifier model and root dataset, as well as all parameters for an instance of AutoGAN.
 * **utils.py** - includes all AutoGAN classes, with each oracle having its own class. It also includes an implementation of CGAN and utility classes for generating datasets from the root dataset.
-* **Datasets folder** - In this directory, the root datasets of all tabular datasets, alongside Kuzushiji-MNIST are brought inside Root Datasets folder. The rest of imagery datasets can be imported from tensorflow.keras.datasets library. Also, all derived datasets with different majority class count and imbalance ratios are brought in Derived Datasets folder.
+* **Datasets folder** - this directory contains two folders: one with the root datasets and another one with the derived datasets. The root datasets of all tabular datasets, alongside Kuzushiji-MNIST are provided in the **Root Dataset folder**. The remaining imagery datasets can be imported from tensorflow.keras.datasets library. The **Derived Datasets folder** contains all the derived datasets with different majority class count and imbalance ratios that were used in our experiments.
 
 ### Requirements
 
