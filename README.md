@@ -38,4 +38,4 @@ python main.py --dataset_name='fmnist79' --oracle_name='CDS' --majority_class=7 
 *****
 
 ### References
-[1] Nazari, E. and Branco, P. and Jourdan, G.V. (2023) *"AutoGAN: An Automated Human-Out-Of-The-Loop Approach for Training Generative Adversarial Networks"* Mathematics  (submitted).
+[1] Ehsan Nazari, Paula Branco, & Guy-Vincent Jourdan (2023) *"AutoGAN: An Automated Human-Out-Of-The-Loop Approach for Training Generative Adversarial Networks"* Mathematics.
